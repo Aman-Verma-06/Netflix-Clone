@@ -7,7 +7,7 @@ import { Bounce, toast } from "react-toastify";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAFlKljv_wsuqp96vFnR1itdIW5B4AOpe0",
+    apiKey: import.meta.env.VITE_API_KEY,
     authDomain: "netflix-clone-6e388.firebaseapp.com",
     projectId: "netflix-clone-6e388",
     storageBucket: "netflix-clone-6e388.appspot.com",
